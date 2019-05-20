@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //在Activity中post事件到LiveData,LiveData将事件传递到注册观察他的各个组件
-                mAccountModel.setAccount(new AccountBean("雪碧有点白", "136123456898", "www.baidu.com", "这是MainActivity的消息"));
+                mAccountModel.setAccount(new AccountBean("雪碧有点白","136123456898","www.baidu.com","这是MainActivity的消息"));
             }
         });
 
